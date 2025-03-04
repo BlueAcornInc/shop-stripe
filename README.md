@@ -1,12 +1,12 @@
-# Edge Delivery Services + Adobe Commerce Boilerplate
+# Adobe Summit 2025 Demo Storefront
 This project boilerplate is for Edge Delivery Services projects that integrate with Adobe Commerce.
 
 ## Documentation
 https://experienceleague.adobe.com/developer/commerce/storefront/
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--shop-summit--blueacorninc.aem.page/
+- Live: https://main--shop-summit--blueacorninc.aem.live/
 
 ## Pre-requisites
 
