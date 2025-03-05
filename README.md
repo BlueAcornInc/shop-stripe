@@ -8,6 +8,15 @@ https://experienceleague.adobe.com/developer/commerce/storefront/
 - Preview: https://main--shop-summit--blueacorninc.aem.page/
 - Live: https://main--shop-summit--blueacorninc.aem.live/
 
+## Commerce as a Cloud Instances
+
+- Admin Endpoint: https://na1-sandbox.admin.commerce.adobe.com/CxcF2esKkKg2c3RjAsRrzL
+- Document Authoring: https://da.live/#/blueacorninc/shop-summit
+
+- REST Endpoint: https://na1-sandbox.api.commerce.adobe.com/CxcF2esKkKg2c3RjAsRrzL
+- GraphQL Endpoint: https://na1-sandbox.api.commerce.adobe.com/CxcF2esKkKg2c3RjAsRrzL/graphql
+
+
 ## Pre-requisites
 
 Out of the box, this project template uses a pre-configured Adobe Commerce environment. If you want to use your own Adobe Commerce environment, you'll need to update the `configs.xlsx` file in your content repository to have values that match your environment.
