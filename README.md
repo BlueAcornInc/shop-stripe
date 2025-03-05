@@ -4,9 +4,11 @@ This project boilerplate is for Edge Delivery Services projects that integrate w
 ## Documentation
 https://experienceleague.adobe.com/developer/commerce/storefront/
 
-## Environments
+## Storefront Environments
+
 - Preview: https://main--shop-summit--blueacorninc.aem.page/
 - Live: https://main--shop-summit--blueacorninc.aem.live/
+- Github: https://github.com/BlueAcornInc/shop-summit
 
 ## Commerce as a Cloud Instances
 
