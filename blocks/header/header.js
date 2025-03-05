@@ -177,6 +177,7 @@ export default async function decorate(block) {
   const classes = ['brand', 'sections', 'tools'];
 
   classes.forEach((c, i) => {
+    console.log(c, i)
     const section = nav.children[i];
     if (!section) {
       const newSection = document.createElement('div');
