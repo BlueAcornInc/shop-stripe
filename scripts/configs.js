@@ -47,7 +47,7 @@ const getConfigForEnvironment = async (environment) => {
     if (!configJSON) {
       throw new Error('No config in session storage');
     }
-    
+
     const parsedConfig = JSON.parse(configJSON);
     if (!parsedConfig[':expiry'] || parsedConfig[':expiry'] < Math.round(Date.now() / 1000)) {
       throw new Error('Config expired');
