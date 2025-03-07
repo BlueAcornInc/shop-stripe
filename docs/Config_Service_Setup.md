@@ -77,7 +77,7 @@ Disallow: /'
  ```
 
  ```bash
- curl -i --header "Cookie: auth_token=$AUTH_TOKEN" https://admin.hlx.page/config/blueacorninc/sites/shop-summit-stripe.json
+ curl -i --header "Cookie: auth_token=$AUTH_TOKEN" https://admin.hlx.page/config/blueacorninc/sites/shop-stripe.json
  ```
 
  ```bash
@@ -100,5 +100,19 @@ curl -i --header "Cookie: auth_token=$AUTH_TOKEN" -X POST "https://admin.hlx.pag
     "/"
     ],
     "delete": true
+}'
+ ```
+
+
+
+ ```bash
+curl -i --header "Cookie: auth_token=$AUTH_TOKEN" -X POST https://admin.hlx.page/config/blueacorninc/sites/shop-stripe/content.json \
+  -H 'content-type: application/json' \
+  --data '{
+  "contentBusId": "80b0fa5cb76574b2a936c24556eb360aade7eb2aa3a312919cfdbec03d3",
+  "source": {
+    "url": "https://content.da.live/blueacorninc/shop-stripe/",
+    "type": "markup"
+  }
 }'
  ```
